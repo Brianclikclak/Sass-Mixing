@@ -1,0 +1,23 @@
+@use 'sections';
+@import 'variables';
+
+body{
+    background-color: $backgroundColor;
+
+    header{
+        color: $titleColor;
+        width: 100%;
+    }
+}
+
+nav{
+    @include navbar
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}

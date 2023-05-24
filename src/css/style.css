@@ -1,0 +1,54 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: darkorchid;
+}
+main #section-two {
+  color: green;
+}
+main #section-three h3 {
+  color: white;
+}
+
+body {
+  background-color: burlywood;
+}
+body header {
+  color: crimson;
+  width: 100%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: black;
+  width: 80%;
+  padding: 10px;
+  font-size: 20px;
+  list-style: none;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+}

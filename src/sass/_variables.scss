@@ -1,0 +1,16 @@
+$backgroundColor: burlywood;
+$titleColor: crimson;
+$TextColorOne: darkorchid;
+$TextColortwo: green;
+$TextColorthree: white;
+$Maincolortext: black;
+
+@mixin navbar {
+    display: flex;
+    justify-content: space-evenly;
+    color: $Maincolortext;
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+}
